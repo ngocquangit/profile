@@ -4,3 +4,14 @@
     padding: 25rem 0;
     margin-top: -25rem;
 }
+.skills-section{
+    background-image: linear-gradient(to right bottom,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url("../img/background.jpg");
+    padding: 20rem 0;
+    position: relative;
+    background-size: cover;
+    clip-path: ellipse(70% 50% at 50% 50%);
+    margin-top: -20rem;
+}

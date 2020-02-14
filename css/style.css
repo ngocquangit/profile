@@ -202,6 +202,14 @@ body {
   padding: 25rem 0;
   margin-top: -25rem; }
 
+.skills-section {
+  background-image: linear-gradient(to right bottom, rgba(142, 158, 252, 0.8), rgba(28, 62, 255, 0.8)), url("../img/background.jpg");
+  padding: 20rem 0;
+  position: relative;
+  background-size: cover;
+  clip-path: ellipse(70% 50% at 50% 50%);
+  margin-top: -20rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -237,3 +245,24 @@ body {
       z-index: 20;
       outline: 0.5rem solid #5a73fc;
       box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5); }
+
+.skill-box {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem 2.5rem 5rem 2.5rem;
+  font-size: 1.6rem;
+  border-radius: 5rem;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.8);
+  height: 35rem;
+  transition: all 0.2s; }
+  .skill-box__icon {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #8e9efc, #1c3eff);
+    -webkit-background-clip: text;
+    color: transparent; }
+  .skill-box:hover {
+    transform: translateY(-1rem) scale(1.05);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.8);
+    cursor: pointer; }
