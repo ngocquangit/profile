@@ -53,6 +53,15 @@
         z-index: -1;
         transition: all .3s;
     }
+    &--blue
+    {
+        background-color: $color-primary;
+        color: $color-white;
+        &::after
+        {
+            background-color: $color-primary;
+        }
+    }
     }
 .btn-text
 {
