@@ -65,6 +65,7 @@ body {
     animation: moveInRight 1s ease-out; }
 
 .heading-secondary {
+  padding-bottom: 3rem;
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -222,7 +223,7 @@ body {
   margin-top: -20rem; }
 
 .enroll-section {
-  padding: 10rem 0;
+  padding: 20rem 0;
   background-image: linear-gradient(to right bottom, #8e9efc, #1c3eff); }
 
 .u-center-text {
